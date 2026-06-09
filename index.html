@@ -110,13 +110,25 @@
       }
     </script>
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.min.css" />
@@ -136,8 +148,9 @@
           <a href="/" aria-label="Ilicode Studio">
             <img
               class="nav-logo"
-              src="assets/Ilicode-studio.png"
+              src="assets/Ilicode-studio.webp"
               alt="Ilicode Studio"
+              fetchpriority="high"
               width="160"
               height="50"
               loading="eager"
@@ -477,11 +490,11 @@
               <div class="about-logo-glow"></div>
               <img
                 class="about-logo-img"
-                src="assets/Ilicode-studio.png"
+                src="assets/Ilicode-studio.webp"
                 alt="Ilicode Studio"
                 width="420"
                 height="230"
-                loading="lazy"
+                loading="eager"
                 decoding="async"
               />
             </div>
@@ -1057,7 +1070,7 @@
       <div class="footer-inner">
         <img
           class="footer-logo"
-          src="assets/Ilicode-studio.png"
+          src="assets/Ilicode-studio.webp"
           alt="Ilicode Studio"
           width="120"
           height="40"
