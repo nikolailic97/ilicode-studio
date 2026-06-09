@@ -100,7 +100,7 @@ body.lang-en [lang-en] {
   transition: all var(--t);
 }
 .lang-btn.active {
-  background: var(--teal);
+  background: #0a6b57;
   color: #fff;
   box-shadow: 0 2px 8px rgba(25, 185, 154, 0.3);
 }
@@ -258,7 +258,7 @@ body.lang-en [lang-en] {
   font-size: 0.68rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--teal);
+  color: #0d7a68;
   margin-bottom: 14px;
 }
 .eyebrow-light {
@@ -493,7 +493,7 @@ body.lang-en [lang-en] {
 }
 .stat-label {
   font-size: 0.82rem;
-  color: var(--slate-l);
+  color: #5e7896;
   margin-top: 3px;
 }
 .stat-divider {
@@ -608,7 +608,7 @@ body.lang-en [lang-en] {
   color: #fff;
 }
 .perf-teal {
-  background: var(--teal);
+  background: #0a6b57;
 }
 .perf-navy {
   background: var(--navy-l);
@@ -815,7 +815,7 @@ body.lang-en [lang-en] {
   white-space: nowrap;
 }
 .tag-teal {
-  color: var(--teal-d);
+  color: #076b5a;
   background: rgba(25, 185, 154, 0.09);
   border: 1px solid rgba(25, 185, 154, 0.2);
 }
@@ -1018,7 +1018,7 @@ body.lang-en [lang-en] {
   font-size: 0.65rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--teal);
+  color: #0d7a68;
 }
 .step-title {
   font-family: "Outfit", sans-serif;
