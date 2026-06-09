@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Glavna stranica -->
+  <url>
+    <loc>https://ilicode.rs/</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Hvala stranica (posle forme) -->
+  <url>
+    <loc>https://ilicode.rs/hvala</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

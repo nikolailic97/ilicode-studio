@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap lokacija — zamenite domenom
+Sitemap: https://ilicode.rs/sitemap.xml

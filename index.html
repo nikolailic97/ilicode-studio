@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="sr" dir="ltr" class="lang-sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>
+      Ilicode Studio | Izrada Web Sajtova za Restorane, Ordinacije i Male
+      Biznise
+    </title>
+    <meta
+      name="description"
+      content="Ilicode Studio izrađuje brze, moderne web sajtove za restorane, ordinacije i male biznise u Srbiji. Lighthouse 100/100. Besplatne konsultacije."
+    />
+    <meta
+      name="keywords"
+      content="izrada web sajta, web dizajn Beograd, web sajt za restoran, web sajt za ordinaciju, mali biznis web sajt, web agencija Srbija"
+    />
+    <meta name="author" content="Ilicode Studio" />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large"
+    />
+    <link rel="canonical" href="https://ilicode.rs/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ilicode.rs/" />
+    <meta
+      property="og:title"
+      content="Ilicode Studio | Izrada Web Sajtova u Srbiji"
+    />
+    <meta
+      property="og:description"
+      content="Brzi, moderni web sajtovi za restorane, ordinacije i male biznise. Lighthouse 100/100. Besplatne konsultacije."
+    />
+    <meta
+      property="og:image"
+      content="https://ilicode.rs/assets/og-image.png"
+    />
+    <meta property="og:locale" content="sr_RS" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Ilicode Studio | Web Sajtovi u Srbiji"
+    />
+    <meta
+      name="twitter:description"
+      content="Brzi, moderni web sajtovi. Lighthouse 100/100. Besplatne konsultacije."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ilicode.rs/assets/og-image.png"
+    />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "LocalBusiness",
+            "name": "Ilicode Studio",
+            "url": "https://ilicode.rs",
+            "telephone": "+381603139966",
+            "email": "kontakt@ilicode.rs",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Beograd",
+              "addressCountry": "RS"
+            },
+            "description": "Web agencija specijalizovana za brze, moderne web sajtove za restorane, ordinacije i male biznise u Srbiji.",
+            "priceRange": "€€",
+            "areaServed": { "@type": "Country", "name": "Serbia" }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Koliko košta izrada web sajta?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cena zavisi od složenosti projekta i funkcionalnosti. Kontaktirajte nas za besplatnu procenu."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Koliko dugo traje izrada sajta?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Standardni sajt isporučujemo za 7–14 dana. Kompleksni projekti mogu trajati do 4 nedelje."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Da li nudite održavanje sajta?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Da, nudimo mesečno održavanje i izmene od 20€ mesečno."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" />
+    <meta name="theme-color" content="#19B99A" />
+  </head>
+
+  <body class="lang-sr">
+    <!-- ══════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════ -->
+    <header>
+      <nav class="nav" id="navbar">
+        <div class="nav-inner">
+          <a href="/" aria-label="Ilicode Studio">
+            <img
+              class="nav-logo"
+              src="assets/Ilicode-studio.png"
+              alt="Ilicode Studio"
+              width="160"
+              height="50"
+              loading="eager"
+              decoding="async"
+            />
+          </a>
+          <div class="nav-right">
+            <ul class="nav-links">
+              <li>
+                <a href="#rad" class="nav-link"
+                  ><span lang-sr>Rad</span><span lang-en>Work</span></a
+                >
+              </li>
+              <li>
+                <a href="#o-nama" class="nav-link"
+                  ><span lang-sr>O Nama</span><span lang-en>About</span></a
+                >
+              </li>
+              <li>
+                <a href="#proces" class="nav-link"
+                  ><span lang-sr>Proces</span><span lang-en>Process</span></a
+                >
+              </li>
+              <li>
+                <a href="#kontakt" class="nav-link"
+                  ><span lang-sr>Kontakt</span><span lang-en>Contact</span></a
+                >
+              </li>
+            </ul>
+            <!-- Language Toggle -->
+            <div class="lang-toggle" role="group" aria-label="Jezik / Language">
+              <button
+                class="lang-btn active"
+                id="btn-sr"
+                onclick="setLang('sr')"
+                aria-pressed="true"
+              >
+                SR
+              </button>
+              <button
+                class="lang-btn"
+                id="btn-en"
+                onclick="setLang('en')"
+                aria-pressed="false"
+              >
+                EN
+              </button>
+            </div>
+            <a href="#kontakt" class="btn btn-teal btn-sm">
+              <span lang-sr>Kontakt</span><span lang-en>Contact</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-3" aria-hidden="true"></div>
+
+        <div class="hero-inner">
+          <div class="hero-badge fade d1">
+            <span class="hero-badge-dot"></span>
+            <span lang-sr>Otvoreni za Nove Projekte</span>
+            <span lang-en>Open for New Projects</span>
+          </div>
+
+          <h1 id="hero-title" class="hero-title fade d2">
+            <span lang-sr
+              >Web Sajtovi koji<br /><span class="hero-grad"
+                >Rade za Vaš Biznis</span
+              ></span
+            >
+            <span lang-en
+              >Websites that<br /><span class="hero-grad"
+                >Work for Your Business</span
+              ></span
+            >
+          </h1>
+
+          <p class="hero-sub fade d3">
+            <span lang-sr
+              >Brza, moderna web rešenja za restorane, ordinacije i male biznise
+              — izgrađena da privuku klijente i ostave utisak.</span
+            >
+            <span lang-en
+              >Fast, modern web solutions for restaurants, clinics and small
+              businesses — built to attract clients and make an
+              impression.</span
+            >
+          </p>
+
+          <div class="hero-cta fade d4">
+            <a href="#kontakt" class="btn btn-teal">
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2.2"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                />
+              </svg>
+              <span lang-sr>Besplatne Konsultacije</span>
+              <span lang-en>Free Consultation</span>
+            </a>
+            <a href="#rad" class="btn btn-outline">
+              <span lang-sr>Pogledajte Rad</span>
+              <span lang-en>See Our Work</span>
+            </a>
+          </div>
+
+          <div class="hero-trust fade d5">
+            <span class="hero-trust-label">
+              <span lang-sr>Radimo sa</span><span lang-en>We work with</span>
+            </span>
+            <span class="hero-trust-dot"></span>
+            <span
+              >🍽️ <span lang-sr>Restorani</span
+              ><span lang-en>Restaurants</span></span
+            >
+            <span class="hero-trust-dot"></span>
+            <span
+              >🏥 <span lang-sr>Ordinacije</span
+              ><span lang-en>Clinics</span></span
+            >
+            <span class="hero-trust-dot"></span>
+            <span
+              >🏢 <span lang-sr>Mali Biznisi</span
+              ><span lang-en>Small Business</span></span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════
+     STATS
+══════════════════════════════════════════════ -->
+      <div class="stats">
+        <div class="stats-inner">
+          <div>
+            <span class="stat-num">100</span>
+            <p class="stat-label">Lighthouse Performance</p>
+          </div>
+          <div>
+            <span class="stat-num">7–14</span>
+            <p class="stat-label">
+              <span lang-sr>Dana do Lansiranja</span
+              ><span lang-en>Days to Launch</span>
+            </p>
+          </div>
+          <div>
+            <span class="stat-num">6+</span>
+            <p class="stat-label">
+              <span lang-sr>Godina Iskustva</span
+              ><span lang-en>Years of Experience</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════════
+     RAD — PORTFOLIO
+══════════════════════════════════════════════ -->
+      <section id="rad" class="section" aria-labelledby="rad-title">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">
+              <span lang-sr>Naš Rad</span><span lang-en>Our Work</span>
+            </p>
+            <h2 id="rad-title" class="section-title">
+              <span lang-sr>Projekti koji Govore za Sebe</span>
+              <span lang-en>Projects that Speak for Themselves</span>
+            </h2>
+            <p class="section-sub">
+              <span lang-sr
+                >Svaki sajt je optimizovan za brzinu, SEO i konverzije — ne samo
+                dizajn.</span
+              >
+              <span lang-en
+                >Every website is optimized for speed, SEO and conversions — not
+                just design.</span
+              >
+            </p>
+          </header>
+
+          <div class="portfolio-grid">
+            <!-- Bellavista -->
+            <article class="card">
+              <!-- PRODUKCIJA: Zameniti mock sa pravim screenshot-om:
+             <img src="assets/bellavista.webp" alt="Restoran Bellavista website" loading="lazy" width="600" height="224"> -->
+              <div class="mock" aria-hidden="true">
+                <div class="mock-bar">
+                  <span class="dot-red"></span><span class="dot-yel"></span
+                  ><span class="dot-grn"></span>
+                  <span class="mock-url">bellavista.rs</span>
+                </div>
+                <div class="mock-body">
+                  <div class="mi-grid-2">
+                    <div class="mi-full">
+                      <div>
+                        <div class="mi-title"></div>
+                        <div class="mi-sub"></div>
+                        <div class="mi-btn"></div>
+                      </div>
+                    </div>
+                    <div class="mi-mini">
+                      <div class="mi-img"></div>
+                      <div class="mi-bar" style="width: 68%"></div>
+                      <div class="mi-bar mi-bar-sm"></div>
+                    </div>
+                    <div class="mi-mini">
+                      <div class="mi-img"></div>
+                      <div class="mi-bar" style="width: 60%"></div>
+                      <div class="mi-bar mi-bar-sm"></div>
+                    </div>
+                  </div>
+                </div>
+                <span class="perf perf-teal">100 PERF</span>
+              </div>
+              <div class="card-info">
+                <div class="card-row">
+                  <h3 class="card-title">Restoran Bellavista</h3>
+                  <span class="tag tag-teal"
+                    ><span lang-sr>Restoran</span
+                    ><span lang-en>Restaurant</span></span
+                  >
+                </div>
+                <p class="card-desc">
+                  <span lang-sr
+                    >Online meni, galerija i rezervacioni sistem. Lighthouse
+                    100/100 — gosti brže pronalaze sto.</span
+                  >
+                  <span lang-en
+                    >Online menu, gallery and reservation system. Lighthouse
+                    100/100 — guests find their table faster.</span
+                  >
+                </p>
+                <!-- PRODUKCIJA: Dodati link ka sajtu -->
+                <!-- <a href="https://bellavista.rs" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Poseti sajt →</a> -->
+              </div>
+            </article>
+
+            <!-- Fizio-Detora -->
+            <article class="card">
+              <div class="mock mock-clinic" aria-hidden="true">
+                <div class="mock-bar">
+                  <span class="dot-red"></span><span class="dot-yel"></span
+                  ><span class="dot-grn"></span>
+                  <span class="mock-url">fizio-detora.rs</span>
+                </div>
+                <div class="mock-body">
+                  <div class="mi-nav">
+                    <div class="mi-logo-f"></div>
+                    <div class="mi-nav-r">
+                      <div class="mi-nl"></div>
+                      <div class="mi-nl"></div>
+                      <div class="mi-nb"></div>
+                    </div>
+                  </div>
+                  <div class="mi-srv-g3">
+                    <div class="mi-srv mi-srv-t">
+                      <div class="mi-ico mi-ico-t"></div>
+                      <div class="mi-bar" style="width: 65%"></div>
+                      <div class="mi-bar mi-bar-sm"></div>
+                    </div>
+                    <div class="mi-srv mi-srv-n">
+                      <div class="mi-ico mi-ico-n"></div>
+                      <div class="mi-bar" style="width: 58%"></div>
+                      <div class="mi-bar mi-bar-sm"></div>
+                    </div>
+                    <div class="mi-srv mi-srv-g">
+                      <div class="mi-ico mi-ico-g"></div>
+                      <div class="mi-bar" style="width: 70%"></div>
+                      <div class="mi-bar mi-bar-sm"></div>
+                    </div>
+                  </div>
+                  <div class="mi-strip">
+                    <div class="mi-strip-l">
+                      <div class="mi-sl1"></div>
+                      <div class="mi-sl2"></div>
+                    </div>
+                    <div class="mi-sb"></div>
+                  </div>
+                </div>
+                <span class="perf perf-navy">100 PERF</span>
+              </div>
+              <div class="card-info">
+                <div class="card-row">
+                  <h3 class="card-title">Fizio-Detora</h3>
+                  <span class="tag tag-navy"
+                    ><span lang-sr>Ordinacija</span
+                    ><span lang-en>Clinic</span></span
+                  >
+                </div>
+                <p class="card-desc">
+                  <span lang-sr
+                    >Online zakazivanje, prezentacija usluga i lokalni SEO —
+                    više pacijenata iz Google-a.</span
+                  >
+                  <span lang-en
+                    >Online scheduling, service presentation and local SEO —
+                    more patients from Google.</span
+                  >
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════
+     O NAMA
+══════════════════════════════════════════════ -->
+      <section
+        id="o-nama"
+        class="section section-teal"
+        aria-labelledby="onama-title"
+      >
+        <div class="wrap">
+          <div class="about-grid">
+            <!-- Logo vizual -->
+            <div class="about-logo-wrap">
+              <div class="about-logo-bg"></div>
+              <div class="about-logo-glow"></div>
+              <img
+                class="about-logo-img"
+                src="assets/Ilicode-studio.png"
+                alt="Ilicode Studio"
+                width="420"
+                height="230"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+
+            <!-- Tekst -->
+            <div>
+              <p class="eyebrow">
+                <span lang-sr>O Nama</span><span lang-en>About Us</span>
+              </p>
+              <h2 id="onama-title" class="section-title">
+                <span lang-sr>Gradimo Web Prisustvo koje Donosi Rezultate</span>
+                <span lang-en>We Build Web Presence that Delivers Results</span>
+              </h2>
+              <p class="section-sub" style="margin-bottom: 0">
+                <span lang-sr
+                  >Sa više od 6 godina iskustva u web razvoju, fokusirani smo na
+                  jedno — sajtove koji rade. Svaki projekat je jedinstven:
+                  prilagođen vašem biznisu, publici i ciljevima. Bez šablona,
+                  bez kompromisa na kvalitetu.</span
+                >
+                <span lang-en
+                  >With over 6 years of web development experience, we focus on
+                  one thing — websites that work. Every project is unique:
+                  tailored to your business, audience and goals. No templates,
+                  no compromise on quality.</span
+                >
+              </p>
+
+              <div class="about-features">
+                <div class="about-feat">
+                  <div class="about-feat-ico">
+                    <svg
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="about-feat-title">
+                      <span lang-sr>Ekstremna Brzina</span
+                      ><span lang-en>Extreme Speed</span>
+                    </p>
+                    <p class="about-feat-desc">
+                      <span lang-sr
+                        >Lighthouse 100/100 na svakom projektu. Brži sajt znači
+                        bolje rangiranje i više konverzija.</span
+                      ><span lang-en
+                        >Lighthouse 100/100 on every project. A faster site
+                        means better rankings and more conversions.</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="about-feat">
+                  <div class="about-feat-ico">
+                    <svg
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="about-feat-title">
+                      <span lang-sr>SEO od Prvog Dana</span
+                      ><span lang-en>SEO from Day One</span>
+                    </p>
+                    <p class="about-feat-desc">
+                      <span lang-sr
+                        >Semantički HTML, strukturirani podaci i lokalni SEO —
+                        Google vas pronalazi pre konkurencije.</span
+                      ><span lang-en
+                        >Semantic HTML, structured data and local SEO — Google
+                        finds you before your competition.</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="about-feat">
+                  <div class="about-feat-ico">
+                    <svg
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <rect x="2" y="3" width="20" height="14" rx="2" />
+                      <path d="M8 21h8M12 17v4" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="about-feat-title">
+                      <span lang-sr>Dizajn za Svaki Biznis</span
+                      ><span lang-en>Design for Every Business</span>
+                    </p>
+                    <p class="about-feat-desc">
+                      <span lang-sr
+                        >Svaki sajt je projektovan od nule — prema vašem brendu,
+                        tonu i ciljanoj publici.</span
+                      ><span lang-en
+                        >Every site is designed from scratch — according to your
+                        brand, tone and target audience.</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════
+     PROCES
+══════════════════════════════════════════════ -->
+      <section
+        id="proces"
+        class="section section-white"
+        aria-labelledby="proces-title"
+      >
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">
+              <span lang-sr>Naš Proces</span><span lang-en>Our Process</span>
+            </p>
+            <h2 id="proces-title" class="section-title">
+              <span lang-sr>Tri Koraka do Vašeg Sajta</span>
+              <span lang-en>Three Steps to Your Website</span>
+            </h2>
+            <p class="section-sub">
+              <span lang-sr
+                >Jasno, transparentno, bez iznenađenja — od ideje do live
+                sajta.</span
+              >
+              <span lang-en
+                >Clear, transparent, no surprises — from idea to live
+                website.</span
+              >
+            </p>
+          </header>
+
+          <div class="process-grid">
+            <div class="process-card">
+              <div class="step-head">
+                <div class="step-num">01</div>
+                <span class="step-label"
+                  ><span lang-sr>Plan</span><span lang-en>Plan</span></span
+                >
+              </div>
+              <h3 class="step-title">
+                <span lang-sr>Razgovaramo o Ciljevima</span
+                ><span lang-en>We Discuss Your Goals</span>
+              </h3>
+              <p class="step-desc">
+                <span lang-sr
+                  >Besplatna konsultacija — saznajemo šta vaš biznis treba, ko
+                  su vaši klijenti i šta želite da sajt postigne.</span
+                ><span lang-en
+                  >Free consultation — we learn what your business needs, who
+                  your clients are and what you want the site to achieve.</span
+                >
+              </p>
+              <div class="badge-row">
+                <span class="badge"
+                  >🎯 <span lang-sr>Ciljevi</span
+                  ><span lang-en>Goals</span></span
+                >
+                <span class="badge"
+                  >📋 <span lang-sr>Struktura</span
+                  ><span lang-en>Structure</span></span
+                >
+                <span class="badge"
+                  >⏱️ <span lang-sr>Rok</span
+                  ><span lang-en>Deadline</span></span
+                >
+              </div>
+            </div>
+
+            <div class="process-card process-card-accent">
+              <div class="step-head">
+                <div class="step-num step-num-a">02</div>
+                <span class="step-label">Develop</span>
+              </div>
+              <h3 class="step-title">
+                <span lang-sr>Gradimo Vaš Sajt</span
+                ><span lang-en>We Build Your Site</span>
+              </h3>
+              <p class="step-desc">
+                <span lang-sr
+                  >Čisti kod, moderan dizajn prilagođen vašem biznisu — brzo,
+                  sigurno, optimizovano za sve uređaje.</span
+                ><span lang-en
+                  >Clean code, modern design tailored to your business — fast,
+                  secure, optimized for all devices.</span
+                >
+              </p>
+              <div class="badge-row">
+                <span class="badge"
+                  >⚡ <span lang-sr>Brzina</span
+                  ><span lang-en>Speed</span></span
+                >
+                <span class="badge">📱 Mobile-first</span>
+                <span class="badge">🔒 SEO</span>
+              </div>
+            </div>
+
+            <div class="process-card">
+              <div class="step-head">
+                <div class="step-num">03</div>
+                <span class="step-label"
+                  ><span lang-sr>Lansiranje i Podrška</span
+                  ><span lang-en>Launch & Support</span></span
+                >
+              </div>
+              <h3 class="step-title">
+                <span lang-sr>Lansiramo i Ostajemo tu</span
+                ><span lang-en>We Launch and Stay</span>
+              </h3>
+              <p class="step-desc">
+                <span lang-sr
+                  >Postavljamo sajt, podešavamo domenu i nudimo mesečno
+                  održavanje — svaka izmena ili ažuriranje na vreme.</span
+                ><span lang-en
+                  >We deploy the site, configure the domain and offer monthly
+                  maintenance — every change or update on time.</span
+                >
+              </p>
+              <div class="badge-row">
+                <span class="badge"
+                  >🚀 <span lang-sr>Deploy</span
+                  ><span lang-en>Deploy</span></span
+                >
+                <span class="badge"
+                  >🔄 <span lang-sr>Održavanje</span
+                  ><span lang-en>Maintenance</span></span
+                >
+                <span class="badge"
+                  >📞 <span lang-sr>Podrška</span
+                  ><span lang-en>Support</span></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════════ -->
+      <section class="section" aria-labelledby="faq-title">
+        <div class="wrap-sm">
+          <header class="section-head">
+            <p class="eyebrow">
+              <span lang-sr>Česta Pitanja</span><span lang-en>FAQ</span>
+            </p>
+            <h2 id="faq-title" class="section-title">
+              <span lang-sr>Sve što Želite da Znate</span>
+              <span lang-en>Everything You Want to Know</span>
+            </h2>
+          </header>
+
+          <details>
+            <summary>
+              <span lang-sr>Koliko košta izrada web sajta?</span
+              ><span lang-en>How much does a website cost?</span
+              ><i class="faq-ico"></i>
+            </summary>
+            <p class="faq-answer">
+              <span lang-sr
+                >Cena zavisi od složenosti projekta, broja sekcija i
+                funkcionalnosti. Kontaktirajte nas za besplatnu procenu — svaki
+                projekat je jedinstven i nudimo rešenja prilagođena vašem
+                budžetu.</span
+              ><span lang-en
+                >The price depends on project complexity, number of sections and
+                features. Contact us for a free estimate — every project is
+                unique and we offer solutions tailored to your budget.</span
+              >
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <span lang-sr>Koliko dugo traje izrada?</span
+              ><span lang-en>How long does development take?</span
+              ><i class="faq-ico"></i>
+            </summary>
+            <p class="faq-answer">
+              <span lang-sr
+                >Standardni sajt isporučujemo za <strong>7–14 dana</strong> od
+                odobrenja dizajna. Kompleksniji projekti mogu trajati do 4
+                nedelje. Brzina delimično zavisi od vaše dostupnosti za feedback
+                i materijale.</span
+              ><span lang-en
+                >We deliver a standard site in <strong>7–14 days</strong> from
+                design approval. More complex projects may take up to 4 weeks.
+                Speed partly depends on your availability for feedback and
+                materials.</span
+              >
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <span lang-sr>Da li nudite održavanje sajta?</span
+              ><span lang-en>Do you offer website maintenance?</span
+              ><i class="faq-ico"></i>
+            </summary>
+            <p class="faq-answer">
+              <span lang-sr
+                >Da — nudimo mesečno održavanje i izmene za
+                <strong>20€/mesec</strong>. Uključuje redovne izmene sadržaja,
+                praćenje performansi i tehničku podršku. Bez iznenađenja, bez
+                skrivenih troškova.</span
+              ><span lang-en
+                >Yes — we offer monthly maintenance and updates for
+                <strong>€20/month</strong>. Includes regular content updates,
+                performance monitoring and technical support. No surprises, no
+                hidden costs.</span
+              >
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <span lang-sr>Koliko košta Lighthouse 100/100?</span
+              ><span lang-en>What does Lighthouse 100/100 mean for me?</span
+              ><i class="faq-ico"></i>
+            </summary>
+            <p class="faq-answer">
+              <span lang-sr
+                >Lighthouse 100/100 znači da je vaš sajt maksimalno brz,
+                pristupačan i SEO-optimizovan prema Google standardima.
+                Rezultat: bolje rangiranje u pretrazi, manje napuštanja sajta i
+                više konverzija.</span
+              ><span lang-en
+                >Lighthouse 100/100 means your site is maximally fast,
+                accessible and SEO-optimized according to Google's standards.
+                Result: better search rankings, less bounce rate and more
+                conversions.</span
+              >
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <span lang-sr>Da li radite i van Srbije?</span
+              ><span lang-en>Do you work outside Serbia?</span
+              ><i class="faq-ico"></i>
+            </summary>
+            <p class="faq-answer">
+              <span lang-sr
+                >Apsolutno. Ceo proces je remote — video konsultacije, online
+                deliverables, plaćanje transferom ili PayPal-om. Radimo sa
+                klijentima iz celog regiona.</span
+              ><span lang-en
+                >Absolutely. The whole process is remote — video consultations,
+                online deliverables, payment by transfer or PayPal. We work with
+                clients across the region.</span
+              >
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════
+     KONTAKT
+     Formspree: formspree.io → New Form → kopirajte YOUR_ID
+══════════════════════════════════════════════ -->
+      <section
+        id="kontakt"
+        class="section section-navy"
+        aria-labelledby="kontakt-title"
+      >
+        <div class="wrap">
+          <div class="contact-grid">
+            <div>
+              <p class="eyebrow eyebrow-light">
+                <span lang-sr>Kontakt</span><span lang-en>Contact</span>
+              </p>
+              <h2 id="kontakt-title" class="contact-title">
+                <span lang-sr>Izgradimo Vaš Sajt Zajedno.</span>
+                <span lang-en>Let's Build Your Site Together.</span>
+              </h2>
+              <p class="contact-sub">
+                <span lang-sr
+                  >Pišite ili pozovite — odgovaramo u roku od jednog radnog
+                  dana. Prva konsultacija je uvek
+                  <span class="contact-acc">besplatna.</span></span
+                >
+                <span lang-en
+                  >Write or call — we respond within one business day. The first
+                  consultation is always
+                  <span class="contact-acc">free.</span></span
+                >
+              </p>
+
+              <ul class="clink-list" aria-label="Kontakt opcije">
+                <li>
+                  <a
+                    href="https://wa.me/381603139966?text=Zdravo%2C%20zainteresovan%20sam%20za%20izradu%20web%20sajta."
+                    class="clink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="clink-ico">
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="clink-lbl">WhatsApp</p>
+                      <span class="clink-val">+381 60 313 9966</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="viber://chat?number=%2B381603139966" class="clink">
+                    <div class="clink-ico">
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M11.398.002C9.473.028 5.331.344 3.014 2.467 1.133 4.35.489 7.103.416 10.188c-.073 3.084-.16 8.863 5.422 10.45h.005l-.004 2.399s-.038.981.609 1.179c.795.243 1.261-.51 2.021-1.329.418-.45.994-1.112 1.429-1.614 3.938.331 6.963-.426 7.308-.537.795-.258 5.294-.833 6.032-6.788.76-6.132-.37-10.002-2.993-11.74l-.001-.002c-.764-.516-3.003-1.228-8.846-1.204zm.053 1.8c5.137-.022 7.098.605 7.72 1.024h.001c2.15 1.433 3.058 4.803 2.39 10.092-.626 5.073-4.261 5.416-4.92 5.624-.29.094-3.041.775-6.485.556 0 0-2.573 3.1-3.373 3.903-.128.13-.275.182-.375.158-.145-.034-.184-.202-.182-.446l.024-3.854s-.001-.015-.004-.024c-4.697-1.303-4.619-6.202-4.558-8.89.063-2.689.586-5.01 2.147-6.562C5.34 2.1 8.889 1.82 11.451 1.802zm.04 2.988c-.229 0-.456.186-.456.431 0 .244.227.431.456.431 2.766 0 5.016 2.25 5.016 5.016 0 .229.188.447.432.447.244 0 .44-.218.44-.447 0-3.244-2.645-5.878-5.888-5.878zM8.896 5.833a1.22 1.22 0 00-.309.043C7.83 6.11 6.491 6.87 6.162 7.755c-.33.886-.171 1.974.408 3.314.578 1.34 1.47 2.597 2.589 3.648 1.119 1.051 2.457 1.877 3.847 2.384 1.39.508 2.51.593 3.408.234.899-.359 1.559-1.622 1.822-2.386.088-.256.069-.544-.044-.747-.437-.795-1.69-1.545-2.068-1.722-.379-.177-.73-.028-.938.235l-.554.743c-.232.31-.637.272-.637.272s-2.264-.651-3.351-3.13c0 0-.19-.368.1-.666l.693-.729c.233-.245.282-.61.116-.97-.381-.835-1.048-2.034-1.699-2.228-.11-.033-.226-.146-.359-.159zm2.624.998c-.229 0-.442.199-.442.428 0 .229.213.424.442.424 1.541 0 2.794 1.252 2.794 2.794 0 .228.197.425.426.425.229 0 .426-.197.426-.425 0-2.012-1.635-3.646-3.646-3.646zm.029 1.81c-.222 0-.437.213-.437.435 0 .222.215.413.437.413.538 0 .976.438.976.976 0 .218.192.423.414.423.222 0 .413-.205.413-.423 0-1.002-.8-1.824-1.803-1.824z"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="clink-lbl">Viber</p>
+                      <span class="clink-val">+381 60 313 9966</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:kontakt@ilicode.rs" class="clink">
+                    <div class="clink-ico">
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="clink-lbl">Email</p>
+                      <span class="clink-val">kontakt@ilicode.rs</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="form-card">
+              <h3 class="form-title">
+                <span lang-sr>Pošaljite Upit</span
+                ><span lang-en>Send an Inquiry</span>
+              </h3>
+              <form
+                action="https://formspree.io/f/YOUR_ID"
+                method="POST"
+                accept-charset="UTF-8"
+              >
+                <input
+                  type="text"
+                  name="_gotcha"
+                  style="display: none"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://ilicode.rs/hvala"
+                />
+
+                <div class="fgrp">
+                  <label for="name" class="flabel"
+                    ><span lang-sr>Vaše Ime</span
+                    ><span lang-en>Your Name</span></label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="finput"
+                    placeholder="Marko Marković"
+                    required
+                    autocomplete="name"
+                  />
+                </div>
+                <div class="fgrp">
+                  <label for="email" class="flabel">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="finput"
+                    placeholder="marko@firma.rs"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+                <div class="fgrp">
+                  <label for="biznis" class="flabel"
+                    ><span lang-sr>Tip Biznisa</span
+                    ><span lang-en>Business Type</span></label
+                  >
+                  <input
+                    type="text"
+                    id="biznis"
+                    name="biznis"
+                    class="finput"
+                    placeholder-sr="Restoran, Ordinacija, Salon..."
+                    placeholder-en="Restaurant, Clinic, Salon..."
+                  />
+                </div>
+                <div class="fgrp" style="margin-bottom: 24px">
+                  <label for="msg" class="flabel"
+                    ><span lang-sr>Poruka</span
+                    ><span lang-en>Message</span></label
+                  >
+                  <textarea
+                    id="msg"
+                    name="message"
+                    class="finput"
+                    rows="4"
+                    required
+                    placeholder-sr="Opišite šta vam treba..."
+                    placeholder-en="Describe what you need..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-teal btn-full">
+                  <svg
+                    width="16"
+                    height="16"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2.2"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                    />
+                  </svg>
+                  <span lang-sr>Pošaljite Poruku</span
+                  ><span lang-en>Send Message</span>
+                </button>
+                <p class="form-note">
+                  <span lang-sr>Odgovaramo unutar 24h radnim danom.</span
+                  ><span lang-en>We respond within 24h on business days.</span>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <img
+          class="footer-logo"
+          src="assets/Ilicode-studio.png"
+          alt="Ilicode Studio"
+          width="120"
+          height="40"
+          loading="lazy"
+          decoding="async"
+        />
+        <p class="footer-copy">
+          © 2025 Ilicode Studio. <span lang-sr>Sva prava zadržana.</span
+          ><span lang-en>All rights reserved.</span>
+          <span class="divider"></span>
+          <span>Built for extreme speed.</span>
+        </p>
+        <nav aria-label="Footer navigacija">
+          <ul class="footer-links">
+            <li>
+              <a href="#rad" class="footer-link"
+                ><span lang-sr>Rad</span><span lang-en>Work</span></a
+              >
+            </li>
+            <li>
+              <a href="#o-nama" class="footer-link"
+                ><span lang-sr>O Nama</span><span lang-en>About</span></a
+              >
+            </li>
+            <li>
+              <a href="#kontakt" class="footer-link"
+                ><span lang-sr>Kontakt</span><span lang-en>Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- ══════════════════════════════════════════════
+     JAVASCRIPT — Minimalan, samo što je potrebno
+══════════════════════════════════════════════ -->
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
