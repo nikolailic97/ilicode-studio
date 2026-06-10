@@ -195,7 +195,7 @@ body.lang-en [lang-en] {
   transition: all var(--t);
 }
 .btn-teal {
-  background: #0d8a73;
+  background: #0a6b57;
   color: #fff;
   box-shadow: var(--shadow-teal);
 }
@@ -1253,7 +1253,7 @@ textarea.finput {
 }
 .footer-copy {
   font-size: 0.74rem;
-  color: rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.65);
   text-align: center;
 }
 .footer-copy span {
@@ -1332,4 +1332,11 @@ textarea.finput {
     width: 160px;
     height: 160px;
   }
+}
+
+.footer-copy [lang-sr],
+.footer-copy [lang-en],
+.footer-link [lang-sr],
+.footer-link [lang-en] {
+  color: inherit;
 }
