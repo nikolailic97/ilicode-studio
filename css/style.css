@@ -195,7 +195,7 @@ body.lang-en [lang-en] {
   transition: all var(--t);
 }
 .btn-teal {
-  background: var(--teal);
+  background: #0d8a73;
   color: #fff;
   box-shadow: var(--shadow-teal);
 }
