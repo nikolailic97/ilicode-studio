@@ -1334,6 +1334,15 @@ textarea.finput {
   }
 }
 
+.footer-copy,
+.footer-copy span {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-copy .divider {
+  background: var(--teal);
+}
+
 .footer-copy [lang-sr],
 .footer-copy [lang-en],
 .footer-link [lang-sr],
