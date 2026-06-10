@@ -6,7 +6,7 @@ function setLang(lang) {
   // Koristi classList umesto className da ne briše ostale klase
   document.body.classList.remove('lang-sr', 'lang-en');
   document.body.classList.add('lang-' + lang);
-  document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'sr');
+ document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'sr');
 
   var btnSr = document.getElementById('btn-sr');
   var btnEn = document.getElementById('btn-en');

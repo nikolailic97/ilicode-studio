@@ -78,6 +78,17 @@ body.lang-en [lang-en] {
   display: revert;
 }
 
+.t-sr,
+.t-en {
+  display: none;
+}
+body.lang-sr .t-sr {
+  display: revert;
+}
+body.lang-en .t-en {
+  display: revert;
+}
+
 .lang-toggle {
   display: flex;
   align-items: center;
