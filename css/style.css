@@ -1321,14 +1321,14 @@ textarea.finput {
 
 @media (max-width: 860px) {
   .about-logo-wrap {
-    min-height: 200px;
-    padding: 28px 24px;
+    min-height: 180px;
+    padding: 24px 20px;
   }
   .about-logo-img {
-    max-width: 220px;
+    max-width: 200px;
   }
   .about-logo-glow {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
 }
