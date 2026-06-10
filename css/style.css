@@ -1325,7 +1325,8 @@ textarea.finput {
     padding: 24px 20px;
   }
   .about-logo-img {
-    max-width: 200px;
+    max-width: 210px;
+    max-height: 115px;
   }
   .about-logo-glow {
     width: 160px;
