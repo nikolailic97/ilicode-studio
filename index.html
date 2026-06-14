@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO -->
     <title>
       Ilicode Studio | Izrada Web Sajtova za Restorane, Ordinacije i Male
       Biznise
@@ -15,13 +14,30 @@
     />
     <meta
       name="keywords"
-      content="izrada web sajta, web dizajn Beograd, web sajt za restoran, web sajt za ordinaciju, mali biznis web sajt, web agencija Srbija"
+      content="izrada web sajta, web dizajn Beograd, web sajt za restoran, web sajt za ordinaciju, web sajtovi za male biznise, web agencija Srbija"
     />
     <meta name="author" content="Ilicode Studio" />
     <meta
       name="robots"
       content="index, follow, max-snippet:-1, max-image-preview:large"
     />
+    <meta
+      name="google-site-verification"
+      content="OVDE_UBACI_TVOJ_VERIFICATION_CODE"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-OVDE_UBACI_TVOJ_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-OVDE_UBACI_TVOJ_ID");
+    </script>
+
     <link rel="canonical" href="https://ilicode.rs/" />
     <link
       rel="apple-touch-icon"
@@ -41,7 +57,6 @@
       href="assets/favicon-16x16.png"
     />
     <link rel="manifest" href="assets/site.webmanifest" />
-    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ilicode.rs/" />
     <meta
@@ -54,12 +69,11 @@
     />
     <meta
       property="og:image"
-      content="https://ilicode.rs/assets/og-image.png"
+      content="https://ilicode.rs/assets/Ilicode-studio.png"
     />
     <meta property="og:locale" content="sr_RS" />
     <meta property="og:locale:alternate" content="en_US" />
 
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -71,10 +85,9 @@
     />
     <meta
       name="twitter:image"
-      content="https://ilicode.rs/assets/og-image.png"
+      content="https://ilicode.rs/assets/Ilicode-studio.png"
     />
 
-    <!-- Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -118,7 +131,11 @@
                 "name": "Da li nudite održavanje sajta?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Da, nudimo mesečno održavanje i izmene od 20€ mesečno."
+                  "text": "Da — nudimo pakete mesečnog održavanja i redovnih izmena. To
+                  uključuje ažuriranje sadržaja, kontinuirano praćenje
+                  performansi i tehničku podršku prilagođenu vašim potrebama,
+                  kako biste mogli potpuno da se fokusirate na svoj
+                  biznis."
                 }
               }
             ]
@@ -143,23 +160,23 @@
       />
     </noscript>
 
-    <!-- Styles -->
     <link rel="stylesheet" href="css/style.min.css" />
 
     <meta name="theme-color" content="#19B99A" />
   </head>
 
   <body class="lang-sr">
-    <!-- ══════════════════════════════════════════════
-     NAVBAR
-══════════════════════════════════════════════ -->
     <header>
       <nav class="nav" id="navbar">
         <div class="nav-inner">
           <a href="/" aria-label="Ilicode Studio">
             <img
               class="nav-logo"
-              src="assets/Ilicode-studio.webp"
+              srcset="
+                assets/Ilicode-studio-sm.webp  600w,
+                assets/Ilicode-studio.webp    1407w
+              "
+              sizes="160px"
               alt="Ilicode Studio"
               fetchpriority="high"
               width="160"
@@ -171,7 +188,7 @@
           <div class="nav-right">
             <ul class="nav-links">
               <li>
-                <a href="#rad" class="nav-link"
+                <a href="#rad" style="display: none" class="nav-link"
                   ><span lang-sr>Rad</span><span lang-en>Work</span></a
                 >
               </li>
@@ -191,7 +208,6 @@
                 >
               </li>
             </ul>
-            <!-- Language Toggle -->
             <div class="lang-toggle" role="group" aria-label="Jezik / Language">
               <button
                 class="lang-btn active"
@@ -217,10 +233,6 @@
         </div>
       </nav>
     </header>
-
-    <!-- ══════════════════════════════════════════════
-     HERO
-══════════════════════════════════════════════ -->
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-grid" aria-hidden="true"></div>
@@ -280,7 +292,7 @@
               <span lang-sr>Besplatne Konsultacije</span>
               <span lang-en>Free Consultation</span>
             </a>
-            <a href="#rad" class="btn btn-outline">
+            <a href="#rad" style="display: none" class="btn btn-outline">
               <span lang-sr>Pogledajte Rad</span>
               <span lang-en>See Our Work</span>
             </a>
@@ -308,10 +320,6 @@
           </div>
         </div>
       </section>
-
-      <!-- ══════════════════════════════════════════════
-     STATS
-══════════════════════════════════════════════ -->
       <div class="stats">
         <div class="stats-inner">
           <div>
@@ -334,11 +342,12 @@
           </div>
         </div>
       </div>
-
-      <!-- ══════════════════════════════════════════════
-     RAD — PORTFOLIO
-══════════════════════════════════════════════ -->
-      <section id="rad" class="section" aria-labelledby="rad-title">
+      <section
+        id="rad"
+        class="section"
+        aria-labelledby="rad-title"
+        style="display: none"
+      >
         <div class="wrap">
           <header class="section-head">
             <p class="eyebrow">
@@ -412,7 +421,6 @@
                     100/100 — guests find their table faster.</span
                   >
                 </p>
-                <!-- PRODUKCIJA: Dodati link ka sajtu -->
                 <!-- <a href="https://bellavista.rs" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Poseti sajt →</a> -->
               </div>
             </article>
@@ -484,10 +492,6 @@
           </div>
         </div>
       </section>
-
-      <!-- ══════════════════════════════════════════════
-     O NAMA
-══════════════════════════════════════════════ -->
       <section
         id="o-nama"
         class="section section-teal"
@@ -495,7 +499,6 @@
       >
         <div class="wrap">
           <div class="about-grid">
-            <!-- Logo vizual -->
             <div class="about-logo-wrap">
               <div class="about-logo-bg"></div>
               <div class="about-logo-glow"></div>
@@ -516,7 +519,6 @@
               />
             </div>
 
-            <!-- Tekst -->
             <div>
               <p class="eyebrow">
                 <span lang-sr>O Nama</span><span lang-en>About Us</span>
@@ -632,9 +634,6 @@
         </div>
       </section>
 
-      <!-- ══════════════════════════════════════════════
-     PROCES
-══════════════════════════════════════════════ -->
       <section
         id="proces"
         class="section section-white"
@@ -740,7 +739,7 @@
               </h3>
               <p class="step-desc">
                 <span lang-sr
-                  >Postavljamo sajt, podešavamo domenu i nudimo mesečno
+                  >Postavljamo sajt, podešavamo domen i nudimo mesečno
                   održavanje — svaka izmena ili ažuriranje na vreme.</span
                 ><span lang-en
                   >We deploy the site, configure the domain and offer monthly
@@ -766,10 +765,12 @@
         </div>
       </section>
 
-      <!-- ══════════════════════════════════════════════
-     FAQ
-══════════════════════════════════════════════ -->
-      <section class="section" aria-labelledby="faq-title">
+      <section
+        class="section"
+        aria-labelledby="faq-title"
+        itemscope
+        itemtype="https://schema.org/FAQPage"
+      >
         <div class="wrap-sm">
           <header class="section-head">
             <p class="eyebrow">
@@ -781,114 +782,167 @@
             </h2>
           </header>
 
-          <details>
-            <summary>
-              <span lang-sr>Koliko košta izrada web sajta?</span
-              ><span lang-en>How much does a website cost?</span
-              ><i class="faq-ico"></i>
+          <details
+            itemscope
+            itemprop="mainEntity"
+            itemtype="https://schema.org/Question"
+          >
+            <summary itemprop="name">
+              <span lang-sr>Koliko košta izrada web sajta?</span>
+              <span lang-en>How much does a website cost?</span>
+              <i class="faq-ico"></i>
             </summary>
-            <p class="faq-answer">
-              <span lang-sr
-                >Cena zavisi od složenosti projekta, broja sekcija i
-                funkcionalnosti. Kontaktirajte nas za besplatnu procenu — svaki
-                projekat je jedinstven i nudimo rešenja prilagođena vašem
-                budžetu.</span
-              ><span lang-en
-                >The price depends on project complexity, number of sections and
-                features. Contact us for a free estimate — every project is
-                unique and we offer solutions tailored to your budget.</span
-              >
-            </p>
+            <div
+              itemscope
+              itemprop="acceptedAnswer"
+              itemtype="https://schema.org/Answer"
+            >
+              <p class="faq-answer" itemprop="text">
+                <span lang-sr
+                  >Cena zavisi od složenosti projekta, broja sekcija i
+                  funkcionalnosti. Kontaktirajte nas za besplatnu procenu —
+                  svaki projekat je jedinstven i nudimo rešenja prilagođena
+                  vašem budžetu.</span
+                >
+                <span lang-en
+                  >The price depends on project complexity, number of sections
+                  and features. Contact us for a free estimate — every project
+                  is unique and we offer solutions tailored to your
+                  budget.</span
+                >
+              </p>
+            </div>
           </details>
 
-          <details>
-            <summary>
-              <span lang-sr>Koliko dugo traje izrada?</span
-              ><span lang-en>How long does development take?</span
-              ><i class="faq-ico"></i>
+          <details
+            itemscope
+            itemprop="mainEntity"
+            itemtype="https://schema.org/Question"
+          >
+            <summary itemprop="name">
+              <span lang-sr>Koliko dugo traje izrada?</span>
+              <span lang-en>How long does development take?</span>
+              <i class="faq-ico"></i>
             </summary>
-            <p class="faq-answer">
-              <span lang-sr
-                >Standardni sajt isporučujemo za <strong>7–14 dana</strong> od
-                odobrenja dizajna. Kompleksniji projekti mogu trajati do 4
-                nedelje. Brzina delimično zavisi od vaše dostupnosti za feedback
-                i materijale.</span
-              ><span lang-en
-                >We deliver a standard site in <strong>7–14 days</strong> from
-                design approval. More complex projects may take up to 4 weeks.
-                Speed partly depends on your availability for feedback and
-                materials.</span
-              >
-            </p>
+            <div
+              itemscope
+              itemprop="acceptedAnswer"
+              itemtype="https://schema.org/Answer"
+            >
+              <p class="faq-answer" itemprop="text">
+                <span lang-sr
+                  >Standardni sajt isporučujemo za <strong>7–14 dana</strong> od
+                  odobrenja dizajna. Kompleksniji projekti mogu trajati do 4
+                  nedelje. Brzina delimično zavisi od vaše dostupnosti za
+                  feedback i materijale.</span
+                >
+                <span lang-en
+                  >We deliver a standard site in <strong>7–14 days</strong> from
+                  design approval. More complex projects may take up to 4 weeks.
+                  Speed partly depends on your availability for feedback and
+                  materials.</span
+                >
+              </p>
+            </div>
           </details>
 
-          <details>
-            <summary>
-              <span lang-sr>Da li nudite održavanje sajta?</span
-              ><span lang-en>Do you offer website maintenance?</span
-              ><i class="faq-ico"></i>
+          <details
+            itemscope
+            itemprop="mainEntity"
+            itemtype="https://schema.org/Question"
+          >
+            <summary itemprop="name">
+              <span lang-sr>Da li nudite održavanje sajta?</span>
+              <span lang-en>Do you offer website maintenance?</span>
+              <i class="faq-ico"></i>
             </summary>
-            <p class="faq-answer">
-              <span lang-sr
-                >Da — nudimo mesečno održavanje i izmene za
-                <strong>20€/mesec</strong>. Uključuje redovne izmene sadržaja,
-                praćenje performansi i tehničku podršku. Bez iznenađenja, bez
-                skrivenih troškova.</span
-              ><span lang-en
-                >Yes — we offer monthly maintenance and updates for
-                <strong>€20/month</strong>. Includes regular content updates,
-                performance monitoring and technical support. No surprises, no
-                hidden costs.</span
-              >
-            </p>
+            <div
+              itemscope
+              itemprop="acceptedAnswer"
+              itemtype="https://schema.org/Answer"
+            >
+              <p class="faq-answer" itemprop="text">
+                <span lang-sr
+                  >Da — nudimo pakete mesečnog održavanja i redovnih izmena. To
+                  uključuje ažuriranje sadržaja, kontinuirano praćenje
+                  performansi i tehničku podršku prilagođenu vašim potrebama,
+                  kako biste mogli potpuno da se fokusirate na svoj
+                  biznis.</span
+                >
+                <span lang-en
+                  >Yes — we offer monthly maintenance and regular update
+                  packages. This includes content updates, continuous
+                  performance monitoring, and technical support tailored to your
+                  needs, allowing you to focus entirely on your business.</span
+                >
+              </p>
+            </div>
           </details>
 
-          <details>
-            <summary>
-              <span lang-sr>Koliko košta Lighthouse 100/100?</span
-              ><span lang-en>What does Lighthouse 100/100 mean for me?</span
-              ><i class="faq-ico"></i>
+          <details
+            itemscope
+            itemprop="mainEntity"
+            itemtype="https://schema.org/Question"
+          >
+            <summary itemprop="name">
+              <span lang-sr>Šta znači Lighthouse 100/100?</span>
+              <span lang-en>What does Lighthouse 100/100 mean for me?</span>
+              <i class="faq-ico"></i>
             </summary>
-            <p class="faq-answer">
-              <span lang-sr
-                >Lighthouse 100/100 znači da je vaš sajt maksimalno brz,
-                pristupačan i SEO-optimizovan prema Google standardima.
-                Rezultat: bolje rangiranje u pretrazi, manje napuštanja sajta i
-                više konverzija.</span
-              ><span lang-en
-                >Lighthouse 100/100 means your site is maximally fast,
-                accessible and SEO-optimized according to Google's standards.
-                Result: better search rankings, less bounce rate and more
-                conversions.</span
-              >
-            </p>
+            <div
+              itemscope
+              itemprop="acceptedAnswer"
+              itemtype="https://schema.org/Answer"
+            >
+              <p class="faq-answer" itemprop="text">
+                <span lang-sr
+                  >Lighthouse 100/100 znači da je vaš sajt maksimalno brz,
+                  pristupačan i SEO-optimizovan prema Google standardima.
+                  Rezultat: bolje rangiranje u pretrazi, manje napuštanja sajta
+                  i više konverzija.</span
+                >
+                <span lang-en
+                  >Lighthouse 100/100 means your site is maximally fast,
+                  accessible and SEO-optimized according to Google's standards.
+                  Result: better search rankings, less bounce rate and more
+                  conversions.</span
+                >
+              </p>
+            </div>
           </details>
 
-          <details>
-            <summary>
-              <span lang-sr>Da li radite i van Srbije?</span
-              ><span lang-en>Do you work outside Serbia?</span
-              ><i class="faq-ico"></i>
+          <details
+            itemscope
+            itemprop="mainEntity"
+            itemtype="https://schema.org/Question"
+          >
+            <summary itemprop="name">
+              <span lang-sr>Da li radite i van Srbije?</span>
+              <span lang-en>Do you work outside Serbia?</span>
+              <i class="faq-ico"></i>
             </summary>
-            <p class="faq-answer">
-              <span lang-sr
-                >Apsolutno. Ceo proces je remote — video konsultacije, online
-                deliverables, plaćanje transferom ili PayPal-om. Radimo sa
-                klijentima iz celog regiona.</span
-              ><span lang-en
-                >Absolutely. The whole process is remote — video consultations,
-                online deliverables, payment by transfer or PayPal. We work with
-                clients across the region.</span
-              >
-            </p>
+            <div
+              itemscope
+              itemprop="acceptedAnswer"
+              itemtype="https://schema.org/Answer"
+            >
+              <p class="faq-answer" itemprop="text">
+                <span lang-sr
+                  >Apsolutno. Ceo proces je remote — video konsultacije, online
+                  deliverables, plaćanje transferom ili PayPal-om. Radimo sa
+                  klijentima iz celog regiona.</span
+                >
+                <span lang-en
+                  >Absolutely. The whole process is remote — video
+                  consultations, online deliverables, payment by transfer or
+                  PayPal. We work with clients across the region.</span
+                >
+              </p>
+            </div>
           </details>
         </div>
       </section>
 
-      <!-- ══════════════════════════════════════════════
-     KONTAKT
-     Formspree: formspree.io → New Form → kopirajte YOUR_ID
-══════════════════════════════════════════════ -->
       <section
         id="kontakt"
         class="section section-navy"
@@ -1031,6 +1085,7 @@
                     id="biznis"
                     name="biznis"
                     class="finput"
+                    placeholder="Restoran, Ordinacija... / Restaurant, Clinic..."
                     placeholder-sr="Restoran, Ordinacija, Salon..."
                     placeholder-en="Restaurant, Clinic, Salon..."
                   />
@@ -1080,9 +1135,6 @@
       </section>
     </main>
 
-    <!-- ══════════════════════════════════════════════
-     FOOTER
-══════════════════════════════════════════════ -->
     <footer class="footer">
       <div class="footer-inner">
         <img
@@ -1095,7 +1147,7 @@
           decoding="async"
         />
         <p class="footer-copy">
-          © 2025 Ilicode Studio.
+          © <span id="year"></span> Ilicode Studio.
           <span class="t-sr">Sva prava zadržana.</span>
           <span class="t-en">All rights reserved.</span>
 
@@ -1105,7 +1157,7 @@
         <nav aria-label="Footer navigacija">
           <ul class="footer-links">
             <li>
-              <a href="#rad" class="footer-link">
+              <a href="#rad" style="display: none" class="footer-link">
                 <span class="t-sr" style="color: inherit">Rad</span>
                 <span class="t-en" style="color: inherit">Work</span>
               </a>
@@ -1140,10 +1192,6 @@
         </nav>
       </div>
     </footer>
-
-    <!-- ══════════════════════════════════════════════
-     JAVASCRIPT — Minimalan, samo što je potrebno
-══════════════════════════════════════════════ -->
     <script src="js/main.js" defer></script>
   </body>
 </html>

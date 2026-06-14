@@ -1,10 +1,7 @@
 /* ============================================================
-   ILICODE STUDIO — style.css  v2.0
-   Produkcija: minifikovati →
    npx csso css/style.css --output css/style.min.css
    ============================================================ */
 
-/* ── RESET ───────────────────────────────────────────────── */
 *,
 *::before,
 *::after {
