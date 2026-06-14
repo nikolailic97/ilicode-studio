@@ -25,6 +25,16 @@
       name="google-site-verification"
       content="OVDE_UBACI_TVOJ_VERIFICATION_CODE"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-OVDE_UBACI_TVOJ_ID"
@@ -35,7 +45,15 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-      gtag("config", "G-OVDE_UBACI_TVOJ_ID");
+      if ("requestIdleCallback" in window) {
+        requestIdleCallback(function () {
+          gtag("config", "G-OVDE_UBACI_TVOJ_ID");
+        });
+      } else {
+        setTimeout(function () {
+          gtag("config", "G-OVDE_UBACI_TVOJ_ID");
+        }, 500);
+      }
     </script>
 
     <link rel="canonical" href="https://ilicode.rs/" />
@@ -146,24 +164,6 @@
         ]
       }
     </script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
-      rel="stylesheet"
-      media="print"
-      onload="this.media = 'all'"
-    />
-
-    <noscript>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
-        rel="stylesheet"
-      />
-    </noscript>
-
-    <link rel="stylesheet" href="css/style.min.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
