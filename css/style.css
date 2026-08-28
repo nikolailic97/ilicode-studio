@@ -684,7 +684,6 @@ body.lang-en .t-en {
   border-radius: 4px;
   margin-bottom: 12px;
 }
-
 .mi-nav {
   display: flex;
   justify-content: space-between;
@@ -1261,7 +1260,7 @@ textarea.finput {
 }
 .footer-copy {
   font-size: 0.74rem;
-  color: rgba(255, 255, 255);
+  color: rgba(255, 255, 255, 0.65);
   text-align: center;
 }
 .footer-copy span {
@@ -1278,7 +1277,7 @@ textarea.finput {
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255);
+  color: rgba(255, 255, 255, 0.65);
   transition: color var(--t);
 }
 .footer-link:hover {
@@ -1346,14 +1345,76 @@ textarea.finput {
 .footer-copy span {
   color: rgba(255, 255, 255, 0.65);
 }
-
 .footer-copy .divider {
   background: var(--teal);
 }
-
 .footer-copy [lang-sr],
 .footer-copy [lang-en],
 .footer-link [lang-sr],
 .footer-link [lang-en] {
   color: inherit;
+}
+
+/* ── SUCCESS POPUP ───────────────────────────────────────── */
+#success-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+}
+.popup-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 25, 50, 0.7);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.popup-card {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: var(--white);
+  border-radius: var(--r-lg);
+  padding: 48px 40px;
+  text-align: center;
+  max-width: 400px;
+  width: calc(100% - 48px);
+  box-shadow: 0 24px 64px rgba(15, 25, 50, 0.25);
+  animation: popupIn 0.3s ease forwards;
+}
+@keyframes popupIn {
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+.popup-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-d) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  box-shadow: 0 8px 24px rgba(25, 185, 154, 0.35);
+}
+.popup-icon svg {
+  stroke: #fff;
+  fill: none;
+  width: 32px;
+  height: 32px;
+}
+.popup-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+.popup-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--slate);
+  margin-bottom: 32px;
 }
